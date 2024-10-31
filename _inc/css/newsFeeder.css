@@ -1,0 +1,100 @@
+/*
+ *	Backend Styles
+ *
+*/
+
+
+.postbox .inside {
+	display: table
+}
+
+.postbox .nf-news > li {
+	float: left; 
+	margin: 5px; 
+	text-align: center; 
+	height: 325px; 
+	width: 120px;
+	overflow: hidden;
+}           
+
+.postbox .nf-news li li {
+	margin: 2px 0; 
+	padding: 0;
+}
+
+.postbox .nf-news img {
+	float: left;
+	width: 100%; 
+	margin-bottom: 5px;
+} 
+
+/*
+ *	Frontend Styles
+ *
+*/
+
+.nf-news.frontend {
+	margin-left: 0px;
+	line-height: 18px;;
+}
+
+.nf-news.frontend a:hover,
+.widget-area .widget .nf-news.frontend a
+.nf-news.frontend p,
+.widget-area .widget .nf-news.frontend p {	
+	color: #000;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-decoration: none!important;
+	letter-spacing: 1px;
+}
+
+.nf-news li,
+.widget-area .nf-news li {
+	/*float: left;*/
+/*	width: 100px;*/
+	margin: 0 5px 5px;
+	padding: 10px 0 0;
+	list-style: none;
+}
+
+
+.nf-news .nf-news img {
+	text-decoration: none;
+	width: 100%;
+	border: none;	
+}
+
+.nf-news .nf-news-info {	
+	background: #fff;
+	border-radius: 2px;	
+	color: #ededed;
+	/* padding: 14px;	 */
+}
+
+.nf-news-info p.nf-news-name,
+.widget-area .widget .nf-news-info p.nf-news-name {
+	font-size: 16px;
+	line-height: 16px;
+	margin:  8px 0;	
+}
+
+.nf-news-info .nf-news-name a,
+.widget-area .widget .nf-news-info .nf-news-name a {
+	color: #000; 
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.nf-news-info .nf-news-name a:hover,
+.widget-area .widget .nf-news-info .nf-news-name a:hover {
+	color: #898989;
+}
+
+.nf-news-info p.nf-news-project,
+.widget-area .widget .nf-news-info p.nf-news-project {
+	color: #edeff0;
+	font-size: 11px;
+	line-height: 14px;
+	margin: 0;	
+}
+
